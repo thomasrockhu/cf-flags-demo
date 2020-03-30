@@ -1,6 +1,7 @@
 # CF-Flags-Demo
 
-[codecov](https://codecov.io/gh/codecov/cf-flags-demo/branch/master/graph/badge.svg)](https://codecov.io/gh/codecov/cf-flags-demo)
+[![codecov](https://codecov.io/gh/codecov/cf-flags-demo/branch/master/graph/badge.svg)](https://codecov.io/gh/codecov/cf-flags-demo)
+
 
 ## What is this?
 
