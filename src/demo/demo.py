@@ -4,3 +4,6 @@ class Demo(object):
 
     def tested_function(self):
         return True
+    
+    def another_tested_function(self):
+        return True
