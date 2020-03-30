@@ -3,7 +3,6 @@ coverage:
     project:
       default:
         target: auto
-        threshold: null
       demo:
         target: auto
         flags:
