@@ -4,13 +4,28 @@ coverage:
       default:
         target: auto
         threshold: null
+      demo:
+        target: auto
+        flags:
+          - demo
+      index:
+        target: auto
+        flags:
+          - index
 comment:
   layout: "reach, diff, flags, files"
   behavior: default
   require_changes: false  
-  require_base: no        
+  require_base: yes
   require_head: yes       
   branches: null
 
-ignore:
-  - "request.py"
+flags:
+  demo:
+    paths:
+      - src/demo/demo.py
+    carryforward: false
+  index:
+    paths:
+      - src/index/index.py
+    carryforward: true

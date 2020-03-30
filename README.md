@@ -1,7 +1,9 @@
-# Codecov-Demo
+# CF-Flags-Demo
 
-[![Build Status](https://travis-ci.org/codecov/codecov-demo.svg?branch=master)](https://travis-ci.org/codecov/Python-Standard) [![codecov](https://codecov.io/gh/codecov/codecov-demo/branch/master/graph/badge.svg)](https://codecov.io/gh/codecov/codecov-demo)
+[codecov](https://codecov.io/gh/codecov/cf-flags-demo/branch/master/graph/badge.svg)](https://codecov.io/gh/codecov/cf-flags-demo)
 
 ## What is this?
 
-Codecov-demo is a python application with basic unit tests. The purpose of this application is to showcase Codecov's flagship features. These features are demonstrated in a series of open pull requests. Each pull request contains an associated Codecov comment and status checks, and runs through Travis CI.
+CF-Flags-Demo is a python application whose purpose is to demonstrate the usage of [carryforward flags](https://docs.codecov.io/docs/carryforward-flags) in a basic python application. 
+
+Carryforward Flags are primarily designed for that projects that do no upload total coverage for every commit (e.g., monorepos with multiple applications/languages, iterative/partial/delta testing setups, etc). If this describes your use case, it is recommended to review [the docs](https://docs.codecov.io/docs/carryforward-flags) before implementing carryforward flags in your own project. 
