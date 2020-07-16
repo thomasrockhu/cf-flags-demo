@@ -2,7 +2,6 @@
 
 [![codecov](https://codecov.io/gh/codecov/cf-flags-demo/graph/badge.svg)](https://codecov.io/gh/codecov/cf-flags-demo)
 
-
 ## What is this?
 
 CF-Flags-Demo is a python application whose purpose is to demonstrate the usage of [carryforward flags](https://docs.codecov.io/docs/carryforward-flags) in a basic python application.

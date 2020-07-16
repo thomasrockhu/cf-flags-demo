@@ -1,5 +1,7 @@
 coverage:
   status:
+    default_rules:
+      carryforward_behavior: pass
     project:
       default:
         target: auto
@@ -11,6 +13,7 @@ coverage:
         target: auto
         flags:
           - index
+
 comment:
   layout: "reach, diff, flags, files"
   behavior: default
@@ -18,6 +21,7 @@ comment:
   require_base: yes
   require_head: yes       
   branches: null
+  show_carryforward_flags: true
 
 flags:
   demo:
