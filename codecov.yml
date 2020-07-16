@@ -13,7 +13,7 @@ coverage:
         target: auto
         flags:
           - index
-        carryforward_behavior: exclude
+
 comment:
   layout: "reach, diff, flags, files"
   behavior: default
