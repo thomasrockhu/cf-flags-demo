@@ -20,6 +20,7 @@ comment:
   require_base: yes
   require_head: yes       
   branches: null
+  show_carryforward_flags: true
 
 flags:
   demo:
